@@ -1,3 +1,6 @@
 textblob
 spacy
 sumy
+pandas
+altair
+vaderSentiment
