@@ -17,6 +17,9 @@ import pandas as pd
 import altair as alt
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
+import nltk
+nltk.download('punkt')
+
 # Fxn
 def convert_to_df(sentiment):
 	sentiment_dict = {'polarity':sentiment.polarity,'subjectivity':sentiment.subjectivity}
